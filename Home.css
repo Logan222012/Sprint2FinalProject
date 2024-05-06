@@ -1,0 +1,48 @@
+.blueBackground {
+    background:lightblue;
+}
+.redText{
+    color: red;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.darktext{
+    color: rgb(129, 6, 6);
+}
+.flex-container{
+    display: flex;
+}
+.flex-container div{
+    border: 1px #ccc solid;
+    padding: 10px;
+    flex: 1 1 0;
+    width: 0;
+}
+
+.carousel-inner {
+    height: 100%;
+    padding-bottom: 100%; /* this sets carousel aspect ratio (4:1 here) */
+  }
+  
+  .carousel-item {
+    position: absolute !important; /* Bootstrap is insistent */
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+ .lightred{
+    color: red;
+ }
+ img{
+    border: dotted;
+    border-color:darkcyan ;
+ }
+  
+  .carousel-item img {
+    height: 100%; /* Bootstrap handles width already */
+    object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+  }
